@@ -1,0 +1,30 @@
+h1{
+    text-align:center;
+    color:green;
+    font-family:sans-serif;
+}
+
+#tetx{
+    border:2px dotted;
+    width:270px;    
+    height: 20px;
+}   
+
+#divider{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  #passgeneretor{
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+    background-color: cyan;
+    border-radius: 100%;
+    margin-left: 140px;
+}
+
+#passgeneretor:hover{
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan
+    ,0 0 50px cyan,0 0 100px cyan, 0 0 200px cyan;
+}
