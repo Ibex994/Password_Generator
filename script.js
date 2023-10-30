@@ -1,22 +1,16 @@
-let characters="!@#$%^&*12345678910ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-
-let length=document.getElementById("select").value;
-let randomString ='';
 document.getElementById("passgeneretor").onclick=function()
 { 
-    
-for(let i=0;i<length;i+=1){
-   let rnum= Math.random()*characters.length;
+    let characters="!@#$%^&*()_+-123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+    let length=document.getElementById("select").value;
+    let randomString ="";
+    for(let i=1;i<=length;i++)
+{
+   let rnum= Math.floor(Math.random() * characters.length);
     randomString+=characters.substring(rnum,rnum+1);
-    document.getElementById("tetx").value=randomString;
+}  
+  document.getElementById("tetx").value=randomString;
 }
-}
-characters.foreach(print);
-
-function capitalize(element,index,array){
-    array[index]=element[0].toUpperCase();
+document.getElementById("clearbutton").onclick=function(){
+    document.getElementById("tetx").value='';
 }
 
-function print (element){
-    console.log(element)
-}
