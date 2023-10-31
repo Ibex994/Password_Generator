@@ -76,6 +76,37 @@ h1, p{
     ,0 0 50px rgb(163, 240, 153),0 0 100px rgb(16, 19, 19), 0 0 200px rgb(153, 63, 148);
 }
 
-h1{
-   
+img{
+    width:50%;
+    height:40%;
+    border:5px orange;
+    box-shadow: 25px 25px 50px rgb(43, 34, 34),
+                25px 25px 50px rgb(35, 37, 36),
+                25px 25px 50px rgb(83, 85, 0);
+    margin-left: 350px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 45%;
+    color: #123870;
+}
+a:hover{
+    color:rgb(105, 3, 3);
+    text-transform:uppercase;
+    text-decoration-line: underline;
+    text-decoration-color: #050505;
+}
+a:active{
+    color:rgb(206, 27, 176);
+}
+p::selection{
+    background:#050102;
+}
+h1::selection{
+    background:#050102;
 }

@@ -1,6 +1,6 @@
 document.getElementById("passgeneretor").onclick=function()
 { 
-    let characters="!@#$%^&*()_+-123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+    let characters="ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()_+-123456789abcdefghijklmnopqrstuvwxyz";
     let length=document.getElementById("select").value;
     let randomString ="";
     for(let i=1;i<=length;i++)
@@ -13,4 +13,3 @@ document.getElementById("passgeneretor").onclick=function()
 document.getElementById("clearbutton").onclick=function(){
     document.getElementById("tetx").value='';
 }
-
