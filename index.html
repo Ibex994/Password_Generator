@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>password generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="list.png" />
+  </head>
+  <body>
+    <h2>
+      Wellcome to our Pass generator, here you can generate a password for your
+      accounts.
+    </h2>
+    <h1>STEPS</h1>
+    <div id="inst">
+      <ol>
+        1. Choose the amount of characters you want in your password.
+      </ol>
+      <ol>
+        2. Select Generate button to see your password.
+      </ol>
+      <ol>
+        3. Select copy button to copy an use the password that generated
+      </ol>
+    </div>
+    <hr />
+    <br />
+    <div id="box">
+      <label for="amount">Define the amount of characters you need:</label>
+      <select id="length" name="nums">
+        <option value="4">4</option>
+        <option value="6">6</option>
+        <option value="8">8</option>
+        <option value="16">16</option>
+        <option value="32">32</option>
+      </select>
+      <button onclick="generate()" id="Submit">Submit</button>
+      <br />
+      <br />
+      <input type="text" id="password" readonly />
+
+      <br />
+      <button onclick="copybtn()" id="opybtn">Copy</button>
+      <button onclick="clearbtn()" id="clearbtn">Clear</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
