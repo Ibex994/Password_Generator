@@ -36,12 +36,12 @@ h1, p{
     width:270px;    
     height: 20px;
     margin-top: 5%;
-    margin-left: 15%;
+    margin-left: 20%;
 }   
 
 #select{
     position: relative;
-    margin-left: 30%;
+    margin-left: 35%;
     width: 100px;
 }
 
@@ -55,7 +55,7 @@ h1, p{
   #passgeneretor{
     box-shadow: 0 0 5px rgb(1, 12, 12), 0 0 25px rgb(13, 8, 85);
     background-color:  rgb(3, 61, 148);
-    margin-left: 120px;
+    margin-left: 60px;
     margin-top: 10px;
 }
 
@@ -109,4 +109,15 @@ p::selection{
 }
 h1::selection{
     background:#050102;
+}
+
+#copybtn{
+    box-shadow: 0 0 5px rgb(1, 17, 46), 0 0 25px rgb(13, 8, 85);
+    background-color: rgb(94, 23, 2);
+    margin-left: 100px;
+}
+
+#copybtn:hover{
+    box-shadow: 0 0 5px rgb(79, 112, 112), 0 0 25px rgb(82, 62, 197)
+    ,0 0 50px rgb(163, 240, 153),0 0 100px rgb(16, 19, 19), 0 0 200px rgb(153, 63, 148);
 }
